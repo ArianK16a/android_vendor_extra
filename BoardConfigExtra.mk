@@ -18,3 +18,6 @@ endif
 ifeq ($(WITH_GMS),true)
 -include vendor/pixel_clocks/board.mk
 endif
+
+# Properties
+TARGET_SYSTEM_PROP += vendor/extra/system.prop
