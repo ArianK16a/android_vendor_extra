@@ -19,5 +19,5 @@
     <string name="updater_server_url" translatable="false">https://raw.githubusercontent.com/arian-ota/ota/lineage-17.1/davinci.json</string>
 
     <!-- URL to changelog -->
-    <string name="menu_changelog_url" translatable="false">https://t.me/StarWarsFlowers</string>
+    <string name="menu_changelog_url" translatable="false">https://raw.githubusercontent.com/arian-ota/changelog/lineage-17.1/davinci.txt</string>
 </resources>
