@@ -18,7 +18,7 @@
     <!-- Popup camera settings -->
     <string name="popup_title">Ön kamera efekti</string>
     <string name="popup_led_title">Kamera LED</string>
-    <string name="popup_led_summary">Ön kamera çıkarkeni LED efektini etkinleştir</string>
+    <string name="popup_led_summary">Ön kamera çıkarken LED efektini etkinleştir</string>
     <string name="popup_sound_title">Ses efekti</string>
     <string name="popup_sound_muqin">Xylophon</string>
     <string name="popup_sound_yingyan">Akbaba</string>
