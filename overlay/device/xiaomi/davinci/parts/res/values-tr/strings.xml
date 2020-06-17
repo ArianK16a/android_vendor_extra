@@ -32,7 +32,7 @@
 
     <!-- DC dimming settings -->
     <string name="dc_dimming_enable_title">DC Dimming</string>
-    <string name="dc_dimming_enable_summary">Düşük ekran parlaklığında gözünüz yorulmasını engeller</string>
+    <string name="dc_dimming_enable_summary">Düşük ekran parlaklığında gözünüzün yorulmasını engeller</string>
     <string name="dc_dimming_enable_summary_not_supported">DC Dimming şu anda kullanılamıyor.</string>
 
     <!-- Pick-up to wake gesture-->
