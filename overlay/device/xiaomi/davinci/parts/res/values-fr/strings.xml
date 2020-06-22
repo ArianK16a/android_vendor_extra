@@ -34,5 +34,5 @@
 
     <!-- Pick-up to wake gesture-->
     <string name="wake_gesture_title">Réveiller</string>
-    <string name="wake_gesture_summary">Réveille l'appareil à la place d\'afficher les notifications pulsantes</string>
+    <string name="wake_gesture_summary">Réveille l\'appareil à la place d\'afficher les notifications pulsantes</string>
 </resources>
