@@ -16,26 +16,45 @@
 -->
 <resources>
     <!-- Popup camera settings -->
-    <string name="popup_title">Ön kamera efekti</string>
-    <string name="popup_led_title">Kamera LED</string>
-    <string name="popup_led_summary">Ön kamera çıkarken LED efektini etkinleştir</string>
-    <string name="popup_sound_title">Ses efekti</string>
-    <string name="popup_sound_muqin">Xylophon</string>
+    <string name="popup_title">Ön kamera ayarları</string>
+    <string name="popup_led_title">Ön kamera LED ışığı</string>
+    <string name="popup_led_summary">Ön kamera açılır ve kapanırken LED ışığını etkinleştir</string>
+    <string name="popup_sound_title">Ses efektleri</string>
+    <string name="popup_sound_muqin">Ksilofon</string>
     <string name="popup_sound_yingyan">Akbaba</string>
     <string name="popup_sound_mofa">Sihir</string>
     <string name="popup_sound_jijia">Mekanik</string>
     <string name="popup_sound_chilun">Dişli</string>
-    <string name="popup_sound_cangmen">Gıcırtılı Kapı</string>
-    <string name="popup_sound_imperial_march">Star Wars© Imperial Marşı</string>
-    <string name="popup_sound_lightsaber">Star Wars© Işın kılıcı</string>
+    <string name="popup_sound_cangmen">Gıcırdılı Kapı</string>
+    <string name="popup_sound_imperial_march">Star Wars© İmparatorluk Marşı</string>
+    <string name="popup_sound_lightsaber">Star Wars© Işın Kılıcı</string>
     <string name="popup_sound_throne_room">Star Wars© Taht Odası</string>
+    <string name="popup_calibration_title">Kalibrasyon</string>
+    <string name="popup_calibration_summary">Ön kamera motorunu kalibre et</string>
+    <string name="popup_calibration_warning_title">Motor kalibrasyonu</string>
+    <string name="popup_calibration_warning_text">Kalibrasyonun gereksiz kullanımı kalıcı hasara yol açabilir. Kalibrasyonun yalnızca kamera düzgün hareket etmediği veya doğru yerde bulunmadığında yapılması önerilir!</string>
 
-    <!-- DC dimming settings -->
-    <string name="dc_dimming_enable_title">DC Dimming</string>
-    <string name="dc_dimming_enable_summary">Düşük ekran parlaklığında gözünüzün yorulmasını engeller</string>
-    <string name="dc_dimming_enable_summary_not_supported">DC Dimming şu anda kullanılamıyor.</string>
+    <!-- Popup camera strings -->
+    <string name="popup_camera_tip">Uyarı</string>
+    <string name="popup_camera_takeback_failed_calibrate">Ön kamera kapatılamadı. Motoru kalibre etmeyi deneyin.</string>
+    <string name="popup_camera_popup_failed_calibrate">Ön kamera açılamadı. Motoru kalibre etmeyi deneyin.</string>
+    <string name="popup_camera_calibrate_running">Ön kamera kalibrasyon sırasında kullanılamıyor.</string>
+    <string name="popup_camera_calibrate_now">Kalibre et</string>
+    <string name="popup_camera_calibrate_failed">Kalibre edilemedi</string>
+    <string name="popup_camera_calibrate_success">Başarıyla kalibre edildi. Şimdi ön kamerayı açabilirsiniz.</string>
 
-    <!-- Pick-up to wake gesture-->
-    <string name="wake_gesture_title">Telefonu kaldır</string>
-    <string name="wake_gesture_summary">Cihaz kaldırıldığında bildirimleri gösterir</string>
+    <!-- Raise to wake gesture-->
+    <string name="raise_to_wake_title">Uyandır</string>
+    <string name="raise_to_wake_summary">Nabız bildirimleri yerine cihazı uyandır</string>
+
+    <!-- Thermal profiles -->
+    <string name="thermal_title">Termal Profiller</string>
+    <string name="thermal_summary">En iyi performans için uygulama bazında termal profil ayarla</string>
+    <string name="thermal_default">Varsayılan</string>
+    <string name="thermal_benchmark">Benchmark</string>
+    <string name="thermal_browser">Tarayıcı</string>
+    <string name="thermal_camera">Kamera</string>
+    <string name="thermal_dialer">Çevirici</string>
+    <string name="thermal_gaming">Oyun</string>
+    <string name="thermal_streaming">Yayın</string>
 </resources>
