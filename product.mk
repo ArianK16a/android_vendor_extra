@@ -12,6 +12,10 @@ PRODUCT_ADB_KEYS := $(EXTRA_PATH)/adbkey.pub
 PRODUCT_COPY_FILES += $(PRODUCT_ADB_KEYS):$(TARGET_COPY_OUT_RECOVERY)/root/$(TARGET_COPY_OUT_PRODUCT)/etc/security/adb_keys
 endif
 
+# Default ADB shell prompt
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    persist.sys.adb.shell=/system/xbin/bash
+
 # Google Sans
 ifeq ($(WITH_GMS),true)
 $(call inherit-product-if-exists, vendor/google_sans/product.mk)
