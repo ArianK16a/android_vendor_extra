@@ -16,8 +16,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- URL to be checked for OTA updates -->
-    <string name="updater_server_url" translatable="false">https://raw.githubusercontent.com/arian-ota/ota/lineage-18.1/davinci_gms.json</string>
+    <string name="updater_server_url" translatable="false">https://raw.githubusercontent.com/arian-ota/ota/lineage-18.1/{device}_gms.json</string>
 
     <!-- URL to changelog -->
-    <string name="menu_changelog_url" translatable="false">https://raw.githubusercontent.com/arian-ota/changelog/lineage-18.1/davinci_gms.txt</string>
+    <string name="menu_changelog_url" translatable="false">https://raw.githubusercontent.com/arian-ota/changelog/lineage-18.1/{device}_gms.txt</string>
 </resources>
