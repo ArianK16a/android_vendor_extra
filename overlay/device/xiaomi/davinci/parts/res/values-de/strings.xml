@@ -40,7 +40,7 @@
     <string name="popup_camera_tip">Warnung</string>
     <string name="popup_camera_takeback_failed_calibrate">Konnte die Frontkamera nicht schließen. Versuche den Motor zu kalibrieren.</string>
     <string name="popup_camera_popup_failed_calibrate">Konnte die Frontkamera nicht schließen. Versuche den Motor zu kalibrieren.</string>
-    <string name="popup_camera_calibrate_running">Die Frontkamer kann während der Kalibrierung nicht benutzt werden.</string>
+    <string name="popup_camera_calibrate_running">Die Frontkamera kann während der Kalibrierung nicht benutzt werden.</string>
     <string name="popup_camera_calibrate_now">Kalibriere</string>
     <string name="popup_camera_calibrate_failed">Kalibrierung fehlgeschlagen</string>
     <string name="popup_camera_calibrate_success">Erfolgreich kalibriert. Die Frontkamera kann nun geöffnet werden.</string>
