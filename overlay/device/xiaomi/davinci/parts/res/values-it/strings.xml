@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2020 The LineageOS Project
+     Copyright (C) 2020-2021 The LineageOS Project
+
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
+
           http://www.apache.org/licenses/LICENSE-2.0
+
      Unless required by applicable law or agreed to in writing, software
      distributed under the License is distributed on an "AS IS" BASIS,
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -23,13 +26,15 @@
     <string name="popup_sound_jijia">Mecha</string>
     <string name="popup_sound_chilun">Ingranaggio</string>
     <string name="popup_sound_cangmen">Porta della cabina</string>
-    <string name="popup_sound_imperial_march">Star Wars© Marcia imperiale</string>
-    <string name="popup_sound_lightsaber">Star Wars© Spada laser</string>
-    <string name="popup_sound_throne_room">Star Wars© Sala del trono</string>
     <string name="popup_calibration_title">Calibrazione</string>
     <string name="popup_calibration_summary">Calibra il motore della fotocamera anteriore</string>
     <string name="popup_calibration_warning_title">Calibrazione del motore</string>
     <string name="popup_calibration_warning_text">L\'uso non necessario della calibrazione può provocare danni permanenti. È consigliato calibrare il motore della fotocamera anteriore solo nel caso in cui non si muova correttamente o sia ferma nella posizione sbagliata!</string>
+
+    <!-- Custom popup camera sounds -->
+    <string name="popup_sound_imperial_march">Star Wars© Marcia imperiale</string>
+    <string name="popup_sound_lightsaber">Star Wars© Spada laser</string>
+    <string name="popup_sound_throne_room">Star Wars© Sala del trono</string>
 
     <!-- Popup camera strings -->
     <string name="popup_camera_tip">Attenzione</string>
@@ -39,24 +44,4 @@
     <string name="popup_camera_calibrate_now">Calibra</string>
     <string name="popup_camera_calibrate_failed">Impossibile calibrare</string>
     <string name="popup_camera_calibrate_success">Calibrato correttamente. Ora puoi aprire la fotocamera anteriore.</string>
-    
-    <!-- Thermal profiles -->
-    <string name="thermal_title">Profili termici</string>
-    <string name="thermal_summary">Imposta profili termici singolarmente per ogni app per prestazioni ottimali</string>
-    <string name="thermal_default">Default</string>
-    <string name="thermal_benchmark">Benchmark</string>
-    <string name="thermal_browser">Browser</string>
-    <string name="thermal_camera">Camera</string>
-    <string name="thermal_dialer">Dialer</string>
-    <string name="thermal_gaming">Gaming</string>
-    <string name="thermal_streaming">Streaming</string>
-    
-    <!-- DC dimming settings -->
-    <string name="dc_dimming_enable_title">DC Dimming</string>
-    <string name="dc_dimming_enable_summary">Riduce lo sforzo visivo in condizioni di poca luminosità (Potrebbe ridurre la qualità delle immagini e la fedeltà cromatica)</string>
-    <string name="dc_dimming_enable_summary_not_supported">DC Dimming non è supportato dal tuo kernel.</string>
-
-    <!-- Pick-up to wake gesture-->
-    <string name="raise_to_wake_gesture_title">Risveglia</string>
-    <string name="raise_to_wake_gesture_summary">Risveglia il dispositivo invece di mostrare Ambient Display</string>
 </resources>
