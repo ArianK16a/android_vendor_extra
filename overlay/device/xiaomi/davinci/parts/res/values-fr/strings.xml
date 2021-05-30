@@ -26,10 +26,10 @@
     <string name="popup_sound_jijia">Mecha</string>
     <string name="popup_sound_chilun">Roue d\'engrenage</string>
     <string name="popup_sound_cangmen">Porte de cabine</string>
-    <string name="popup_calibration_title">Calibration</string>
-    <string name="popup_calibration_summary">Calibrate the popup camera motor</string>
-    <string name="popup_calibration_warning_title">Motor calibration</string>
-    <string name="popup_calibration_warning_text">Unnecessary use of calibration may cause permanent damage. It is recommended to calibrate the popup camera motor only in case of it not moving properly or it being in incorrect position!</string>
+    <string name="popup_calibration_title">Calibrage</string>
+    <string name="popup_calibration_summary">Calibrer le moteur de la caméra frontale</string>
+    <string name="popup_calibration_warning_title">Calibrage du moteur</string>
+    <string name="popup_calibration_warning_text">Un calibrage inutile peut causer des dommages irréversibles. Il est recommandé de calibrer le moteur de la caméra si le mouvement ou la position de la caméra sont incorrects!</string>
 
     <!-- Custom popup camera sounds -->
     <string name="popup_sound_imperial_march">Star Wars© La marche impériale</string>
@@ -37,11 +37,11 @@
     <string name="popup_sound_throne_room">Star Wars© Salle du trône</string>
 
     <!-- Popup camera strings -->
-    <string name="popup_camera_tip">Warning</string>
-    <string name="popup_camera_takeback_failed_calibrate">Couldn\'t close front camera. Try calibrating the motor.</string>
-    <string name="popup_camera_popup_failed_calibrate">Couldn\'t open front camera. Try calibrating the motor.</string>
-    <string name="popup_camera_calibrate_running">Front camera cannot be used during calibration.</string>
-    <string name="popup_camera_calibrate_now">Calibrate</string>
-    <string name="popup_camera_calibrate_failed">Couldn\'t calibrate</string>
-    <string name="popup_camera_calibrate_success">Calibrated successfully. You can open the front camera now.</string>
+    <string name="popup_camera_tip">Attention</string>
+    <string name="popup_camera_takeback_failed_calibrate">Entrée de la caméra impossible. Essayer un calibrage moteur.</string>
+    <string name="popup_camera_popup_failed_calibrate">Sortie de la caméra impossible. Essayer un calibrage moteur.</string>
+    <string name="popup_camera_calibrate_running">La caméra frontale ne peut pas être utilisée pendant le calibrage.</string>
+    <string name="popup_camera_calibrate_now">Calibrer</string>
+    <string name="popup_camera_calibrate_failed">Erreur de calibrage</string>
+    <string name="popup_camera_calibrate_success">Succès de calibrage. Il est maintenant possible d\'ouvrir la caméra frontale.</string>
 </resources>
