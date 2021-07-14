@@ -18,3 +18,5 @@ This is how you translate it:
 ```
     <string name="example">Beispiel</string>
 ```
+
+![Translation](https://media.giphy.com/media/vrcxO2t1CLV0k/giphy.gif)
