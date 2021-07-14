@@ -16,5 +16,5 @@ This is how such a string could look like originally:
 ```
 This is how you translate it:
 ```
-    <string name="example ">Beispiel</string>
+    <string name="example">Beispiel</string>
 ```
