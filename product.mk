@@ -16,4 +16,5 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/extra/overlay
 PRODUCT_PACKAGES += UpdaterOverlay
 
 # Translations
-PRODUCT_PACKAGE_OVERLAYS += vendor/translations/overlay
+PRODUCT_PACKAGES += \
+    MotorTranslationsOverlay
