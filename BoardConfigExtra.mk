@@ -3,3 +3,6 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
+
+# MiuiCamera
+-include device/xiaomi/miuicamera-$(PRODUCT_DEVICE)/BoardConfig.mk
