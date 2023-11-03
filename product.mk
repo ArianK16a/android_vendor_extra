@@ -4,6 +4,11 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# ADB
+ifneq (,$(wildcard $(EXTRA_PATH)/adbkey.pub))
+PRODUCT_ADB_KEYS := $(EXTRA_PATH)/adbkey.pub
+endif
+
 # Google Sans
 $(call inherit-product-if-exists, vendor/google_sans/product.mk)
 
