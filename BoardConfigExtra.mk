@@ -6,3 +6,6 @@
 
 # MiuiCamera
 -include device/xiaomi/miuicamera-$(PRODUCT_DEVICE)/BoardConfig.mk
+
+# Pixel Clocks
+-include vendor/pixel_clocks/board.mk
