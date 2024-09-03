@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Google Sans
+$(call inherit-product-if-exists, vendor/google_sans/product.mk)
+
 # MiuiCamera
 $(call inherit-product-if-exists, device/xiaomi/miuicamera-$(shell echo -n $(TARGET_PRODUCT) | sed -e 's/^[a-z]*_//g')/device.mk)
 
