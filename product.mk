@@ -4,6 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+EXTRA_PATH := vendor/extra
+
 # ADB
 ifneq (,$(wildcard $(EXTRA_PATH)/adbkey.pub))
 PRODUCT_ADB_KEYS := $(EXTRA_PATH)/adbkey.pub
@@ -25,6 +27,9 @@ PRODUCT_PACKAGES += GmsUpdaterOverlay
 else
 PRODUCT_PACKAGES += UpdaterOverlay
 endif
+
+# Overlays
+PRODUCT_PACKAGE_OVERLAYS += $(EXTRA_PATH)/overlay-lineage
 
 # Pixel Clocks
 ifeq ($(WITH_GMS),true)
