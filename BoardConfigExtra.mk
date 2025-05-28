@@ -5,7 +5,9 @@
 #
 
 # Google Sans
+ifeq ($(WITH_GMS),true)
 -include vendor/google_sans/board.mk
+endif
 
 # MiuiCamera
 ifneq (,$(filter cupid mondrian unicorn zeus,$(PRODUCT_DEVICE)))
@@ -13,4 +15,6 @@ ifneq (,$(filter cupid mondrian unicorn zeus,$(PRODUCT_DEVICE)))
 endif
 
 # Pixel Clocks
+ifeq ($(WITH_GMS),true)
 -include vendor/pixel_clocks/board.mk
+endif
