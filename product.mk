@@ -13,5 +13,7 @@ endif
 PRODUCT_PACKAGES += UpdaterOverlay
 
 # Translations
+ifeq (lineage_davinci,TARGET_PRODUCT)
 PRODUCT_PACKAGES += \
     MotorTranslationsOverlay
+endif
