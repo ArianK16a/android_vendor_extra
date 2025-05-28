@@ -24,5 +24,7 @@ PRODUCT_PACKAGES += UpdaterOverlay
 $(call inherit-product-if-exists, vendor/pixel_clocks/product.mk)
 
 # Translations
+ifeq (lineage_davinci,TARGET_PRODUCT)
 PRODUCT_PACKAGES += \
     MotorTranslationsOverlay
+endif
