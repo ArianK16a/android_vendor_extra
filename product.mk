@@ -16,11 +16,6 @@ endif
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.sys.adb.shell=/system_ext/bin/bash
 
-# Google Sans
-ifeq ($(WITH_GMS),true)
-$(call inherit-product-if-exists, vendor/google_sans/product.mk)
-endif
-
 # MiuiCamera
 ifneq (,$(filter cupid mondrian unicorn zeus,$(shell echo -n $(TARGET_PRODUCT) | sed -e 's/^[a-z]*_//g')))
 $(call inherit-product-if-exists, device/xiaomi/miuicamera-cupid/device.mk)
@@ -36,9 +31,9 @@ endif
 # Overlays
 PRODUCT_PACKAGE_OVERLAYS += $(EXTRA_PATH)/overlay-lineage
 
-# Pixel Clocks
+# Pixel Goodies
 ifeq ($(WITH_GMS),true)
-$(call inherit-product-if-exists, vendor/pixel_clocks/product.mk)
+$(call inherit-product-if-exists, device/google/pixel-goodies/product.mk)
 endif
 
 # Translations
