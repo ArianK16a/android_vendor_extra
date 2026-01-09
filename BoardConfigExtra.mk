@@ -11,5 +11,5 @@ endif
 
 # Pixel Goodies
 ifeq ($(WITH_GMS),true)
--include device/google/pixel-goodies/board.mk
+-include vendor/google/pixel-goodies/board.mk
 endif
