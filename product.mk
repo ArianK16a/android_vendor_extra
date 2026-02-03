@@ -33,7 +33,7 @@ PRODUCT_PACKAGE_OVERLAYS += $(EXTRA_PATH)/overlay-lineage
 
 # Pixel Goodies
 ifeq ($(WITH_GMS),true)
-$(call inherit-product-if-exists, vendor/google/pixel-goodies/product.mk)
+$(call inherit-product-if-exists, vendor/pixel-goodies/product.mk)
 endif
 
 # Translations
